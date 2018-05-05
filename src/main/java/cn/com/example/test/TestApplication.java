@@ -12,10 +12,10 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @MapperScan("cn.com.example.test.dao")
 public class TestApplication extends SpringBootServletInitializer {
-/*	@Override
+	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder){
 		return builder.sources(TestApplication.class);
-	}*/
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(TestApplication.class, args);
 	}
